@@ -6,13 +6,14 @@ public static void main (String [] args){    //Método
 
     String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
 
+    System.out.println(nomeCompleto);
 };
 
 
 
             // esse metodo foi criado como se fosse uma funcao no javascript para usar em outro lugar
 public static String  nomeCompleto (String primeiroNome, String segundiNonme){   // método
-    return primeiroNome.concat("").concat(segundiNonme);
+    return "Resultado do método: "+ primeiroNome.concat(" ").concat(segundiNonme);
 }
 
 
