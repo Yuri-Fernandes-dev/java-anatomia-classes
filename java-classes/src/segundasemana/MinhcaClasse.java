@@ -1,3 +1,4 @@
+package segundasemana;
 public class MinhcaClasse {                         //classe - nomeclatura intuitiva
 public static void main (String [] args){    //Método
 
